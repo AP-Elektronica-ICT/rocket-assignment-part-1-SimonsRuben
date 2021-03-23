@@ -33,7 +33,7 @@ public class Rocket : MonoBehaviour
         jump = CrossPlatformInputManager.GetButton("Jump");
         if (jump)
         {
-            rigid.AddRelativeForce(0, 1, 0);
+            rigid.AddRelativeForce(0, 0.8f, 0);
         }
         
     }
